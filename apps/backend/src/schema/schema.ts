@@ -8,8 +8,6 @@ builder.prismaObject("User", {
   }),
 });
 
-builder.queryType({});
-
 builder.queryType({
   fields: (t) => ({
     me: t.prismaField({
