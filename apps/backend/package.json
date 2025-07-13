@@ -15,12 +15,12 @@
     "graphql": "^16.11.0",
     "graphql-yoga": "^5.15.1",
     "hono": "^4.8.4",
-    "jsonwebtoken": "^9.0.2",
-    "prisma": "^6.11.1"
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^20.11.17",
+    "prisma": "^6.11.1",
     "tsx": "^4.7.1",
     "typescript": "^5.8.3"
   }
