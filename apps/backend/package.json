@@ -12,12 +12,14 @@
     "@pothos/core": "^4.7.2",
     "@pothos/plugin-prisma": "^4.10.0",
     "@prisma/client": "^6.11.1",
+    "bcrypt": "^6.0.0",
     "graphql": "^16.11.0",
     "graphql-yoga": "^5.15.1",
     "hono": "^4.8.4",
     "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^20.11.17",
     "prisma": "^6.11.1",
