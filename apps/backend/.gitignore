@@ -28,3 +28,6 @@ lerna-debug.log*
 .DS_Store
 
 /src/generated/prisma
+
+prisma/generated.d.ts
+prisma/client/*
