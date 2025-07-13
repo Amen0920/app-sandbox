@@ -8,6 +8,8 @@ app.get("/", (c) => {
   return c.text("Hello Hono!");
 });
 
+app.mount("/graphql", yoga);
+
 serve(
   {
     fetch: app.fetch,
@@ -17,5 +19,3 @@ serve(
     console.log(`Server is running on http://localhost:${info.port}`);
   }
 );
-
-app.mount("/graphql", yoga);
