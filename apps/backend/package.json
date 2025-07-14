@@ -5,9 +5,10 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "generate": "prisma generate",
+    "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate reset -f",
-    "prisma:seed": "tsx prisma/seed.ts"
+    "prisma:seed": "tsx prisma/seed.ts",
+    "schema:generate": "graphql-codegen"
   },
   "dependencies": {
     "@hono/node-server": "^1.15.0",
@@ -21,6 +22,8 @@
     "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.7",
+    "@graphql-codegen/schema-ast": "^4.1.0",
     "@types/bcrypt": "^5.0.2",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.0.13",
